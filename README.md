@@ -70,3 +70,5 @@ This task covers matrix multiplication in Python.
 
 ## Overview
 The project covers Deutsch's Algorithm, which is a foundational algorithm in quantum computing. The algorithm is the first representation of quantum advantage, which is when a quantum computer has an advantage over a classical computer. The project introduces quantum computing and gives a detailed explanation on all of the essential components for understanding and implementing Deutsch's algorithm.
+
+In the project notebook, we create the quantum circuit for Deutsch's algorithm using Qiskit. Qiskit is an open source piece of software, developed by IBM for the purpose of quantum computing. You can find in depth documentation regarding Qiskit [here](https://www.ibm.com/quantum/qiskit).
