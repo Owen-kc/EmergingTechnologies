@@ -1,9 +1,9 @@
 # EmergingTechnologies
 
 # Tasks & Project
-This repository is for Emerging Technologies, where we study the use of Quantum Computing as an emerging technology.  
+This repository is for Emerging Technologies, where we study the use of Quantum Computing as an emerging technology. The tasks in this repository are mainly mathematical operations in Python, while the project is a study on Deutsch's algorithm, which is a fundamental concept in quantum computing.
 
-**By Owen Casey**
+By *Owen Casey*
 
 # Prerequisites
 The main contents of this repository are Jupyter notebooks. To run these notebooks, you will need the following:
@@ -15,6 +15,34 @@ The main contents of this repository are Jupyter notebooks. To run these noteboo
 **Jupyter Notebook**: Jupyter Notebook support should come with Anaconda/Miniconda, but you can also install it through a VSCode extension.
 
 **Required Libraries**: Any required libraries will be mentioned in the relevant section they are used in the notebooks. 
+
+**VSCode**: If you intend to execute code in your own environment, VSCode is recommended, as it's the standard.
+
+# Anaconda/Miniconda
+The use of Anaconda or Miniconda is *heavily* encouraged for this repository. Anaconda is a **full** installer while Miniconda is a **minimal** installer. They both have an easy to follow installer, which you can use to set up your environment. However, there are some things I'd like to mention. 
+
+- When you install Anaconda/Miniconda, ensure that you have the correct environment set up in the interpreter for VSCode. To do this, you can:
+    - Open VSCode
+    - Install Python extension (if not already installed)
+    - Open the command palette (Ctrl+Shift+P on windows / Cmd+Shift+P on Mac)
+    - Enter "Python:Select Interpreter" and select it
+    - Choose the correct Anaconda/Miniconda environment
+
+-  If you haven't be sure to activate your environment through the command line. To do this, open the Anaconda/Miniconda command line and enter the following command:
+
+```
+conda activate myenv
+```
+
+Ensure that you replace "myenv" with your environment name.
+
+- If you wish to install packages, extensions, etc, directly to your environment, you can use the following command:
+
+```
+conda install *package name*
+```
+
+- If required, ensure that you read any relevant documentation needed for [Anaconda](https://docs.anaconda.com/index.html) or [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/).
 
 # How to run
 
@@ -30,7 +58,14 @@ git clone https://github.com/Owen-kc/EmergingTechnologies.git
 ```
 
 ## Step 3: Install required libraries
-The relevant libraries will be defined in the notebooks, ensure these are installed for the notebooks to run properly. 
+The relevant libraries will be defined in the notebooks, ensure these are installed for the notebooks to run properly. Depending on how you have your own environment set up, you may want to install these locally in your Anaconda/Miniconda/VSCode terminal. Here is a list of extensions and libraries that are used in the notebooks:
+- Qiskit
+- Qiskit Aer
+- Matplotlib
+- Pandas
+- Pylatexenc
+- Itertools
+- Numpy
 
 ## Step 4: Run Jupyter Notebook
 If you have installed Anaconda or Miniconda, Jupyter Notebook should already be installed. Otherwise, install it using the following command:
