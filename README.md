@@ -18,7 +18,7 @@ The main contents of this repository are Jupyter notebooks. To run these noteboo
 
 **VSCode**: If you intend to execute code in your own environment, VSCode is recommended, as it's the standard.
 
-# Anaconda/Miniconda
+# Anaconda and Miniconda
 The use of Anaconda or Miniconda is *heavily* encouraged for this repository. Anaconda is a **full** installer while Miniconda is a **minimal** installer. They both have an easy to follow installer, which you can use to set up your environment. However, there are some things I'd like to mention. 
 
 - When you install Anaconda/Miniconda, ensure that you have the correct environment set up in the interpreter for VSCode. To do this, you can:
@@ -81,8 +81,11 @@ You can start the jupyter notebook you can run the following command:
 ```
 jupyter notebook
 ```
-You can use this command to open a specific notebook, so navigate to the notebook you want to run and execute the command to open the notebook in the jupyter interface.
+You can use this command to open a navigation tree where you can select a specific notebook. **Note**: Depending on your own install, you may need to run this from your Anaconda/Miniconda terminal. If you are encountering errors launching the notebook in something like VSCode, you should open the Anaconda/Miniconda terminal, navigate to the repository using the following code command:
 
+```
+cd *path to repo on your system*
+```
 
 By following these steps, you should be able to run the contents of the repository.
 
@@ -107,3 +110,29 @@ This task covers matrix multiplication in Python.
 The project covers Deutsch's Algorithm, which is a foundational algorithm in quantum computing. The algorithm is the first representation of quantum advantage, which is when a quantum computer has an advantage over a classical computer. The project introduces quantum computing and gives a detailed explanation on all of the essential components for understanding and implementing Deutsch's algorithm.
 
 In the project notebook, we create the quantum circuit for Deutsch's algorithm using Qiskit. Qiskit is an open source piece of software, developed by IBM for the purpose of quantum computing. You can find in depth documentation regarding Qiskit [here](https://www.ibm.com/quantum/qiskit).
+
+## Purpose
+The purpose of this project is to analyze Deutsch's algorithm and what purpose it serves in quantum computing. We aim to demonstrate Deutsch's algorithm being implemented in Qiskit, and simulate the quantum circuit we implement.
+
+## Section Breakdown
+Here, I will go over the main points of the project, and explain the purpose each of these sections represent.
+
+### Introduction to Quantum Computing
+Introduction to Quantum Computing covers the historical context and fundamentals of quantum computing. These aspects are essential to understanding the context of quantum computing before implementing Deutsch's algorithm. This section goes over the main points that we are interested in, qubits, superposition, entaglement and gates/circuits.
+
+### Deutsch's Algorithm
+This section introdices the concept of Deutsch's algorithm and what problem it aims to achieve. It provides context on balanced and constant functions, and introduces the oracle and the quantum circuit to the project.
+
+### Qiskit
+The Qiskit section introduces Qiskit, how to install it, and how it works. It provides a detailed explanation on Qiskit, including the components of Qiskit that we use in the implementation of Deutsch's algorithm, and provides a brief example of a simple cirucit.
+
+### Deutsch's Algorithm in Qiskit
+This is considered the main section of the notebook. Here, we implement Deutsch's algorithm in qiskit, and simulate the quantum circuit. This is the section we have been building towards with the previous sections.
+
+### Results
+In the results section, we provide an analysis of the results, as well as some scientifc graph representations of our results.
+
+### Conclusion
+Finally, we conclude our results and thoughts on Deutsch's algorithm in the conclusion section.
+
+
