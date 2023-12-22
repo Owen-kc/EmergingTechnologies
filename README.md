@@ -118,7 +118,7 @@ In the project notebook, we create the quantum circuit for Deutsch's algorithm u
 ### Purpose
 The purpose of this project is to analyze Deutsch's algorithm and what purpose it serves in quantum computing. We aim to demonstrate Deutsch's algorithm being implemented in Qiskit, and simulate the quantum circuit we implement.
 
-### Section Breakdown
+## Section Breakdown
 Here, I will go over the main points of the project, and explain the purpose each of these sections represent.
 
 ### Introduction to Quantum Computing
