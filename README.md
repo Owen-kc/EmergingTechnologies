@@ -91,30 +91,34 @@ By following these steps, you should be able to run the contents of the reposito
 
 # Tasks
 
-## Overview
+### Overview
 **Task 1: Collatz Conjuncture**
+
 This task covers the famous unsolved Collatz Conjuncutre problem through Python.
 
 **Task 2: Square Roots**
+
 This task covers square roots in Python through Newtons method. 
 
 **Task 3: Four Bit Functions**
+
 This task covers a function that takes four input bits.
 
 **Task 4: Matrix Multiplication**
+
 This task covers matrix multiplication in Python.
 
 # Project
 
-## Overview
+### Overview
 The project covers Deutsch's Algorithm, which is a foundational algorithm in quantum computing. The algorithm is the first representation of quantum advantage, which is when a quantum computer has an advantage over a classical computer. The project introduces quantum computing and gives a detailed explanation on all of the essential components for understanding and implementing Deutsch's algorithm.
 
 In the project notebook, we create the quantum circuit for Deutsch's algorithm using Qiskit. Qiskit is an open source piece of software, developed by IBM for the purpose of quantum computing. You can find in depth documentation regarding Qiskit [here](https://www.ibm.com/quantum/qiskit).
 
-## Purpose
+### Purpose
 The purpose of this project is to analyze Deutsch's algorithm and what purpose it serves in quantum computing. We aim to demonstrate Deutsch's algorithm being implemented in Qiskit, and simulate the quantum circuit we implement.
 
-## Section Breakdown
+### Section Breakdown
 Here, I will go over the main points of the project, and explain the purpose each of these sections represent.
 
 ### Introduction to Quantum Computing
